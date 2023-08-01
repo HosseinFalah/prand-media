@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    font-family: "YekanBakh";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-yekan);
+  min-height: 100vh;
+  user-select: none;
 }
